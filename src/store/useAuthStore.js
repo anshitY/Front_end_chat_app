@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 
 const BASE_URL =
   import.meta.env.MODE === "development"
-    ? "http://localhost:5001"
+    ? "https://chat-app-backend-six-sigma.vercel.app/"
     : window.location.origin;
 
 export const useAuthStore = create((set, get) => ({
